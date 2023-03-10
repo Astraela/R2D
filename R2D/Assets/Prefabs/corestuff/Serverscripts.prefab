@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1619051174606446}
+  m_IsPrefabParent: 1
+--- !u!1 &1619051174606446
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4049334054298366}
+  - component: {fileID: 114742312362689350}
+  - component: {fileID: 114826291380636680}
+  - component: {fileID: 114014258287267638}
+  - component: {fileID: 114441672162218458}
+  - component: {fileID: 114409272424713964}
+  m_Layer: 0
+  m_Name: Serverscripts
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4049334054298366
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1619051174606446}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.1004162, y: -4.7243023, z: -0.0078125}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114014258287267638
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1619051174606446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2126d438ec40c4f4ca282de540e02fce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NoobPrefab: {fileID: 1652119171698128, guid: da4624d8c0a6a7c49808f4eda41f30c3, type: 2}
+  GuestPrefab: {fileID: 1505377604138946, guid: 8888795c550ca8942bee5ca2655ce610,
+    type: 2}
+  enemiesSpawned: 0
+--- !u!114 &114409272424713964
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1619051174606446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b9a1daffc2f6fe4e83d7c5e391e33f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level: 1
+  happening: 1
+  bossProgress: 0
+  bossWave: 0
+  Boss: {fileID: 1290049629188208, guid: 955dd8aea2c27774cbe584fd40fdb57d, type: 2}
+--- !u!114 &114441672162218458
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1619051174606446}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2d729adbaab24b4e98dd7a01191e031, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  happening: 1
+  bossWave: 1
+  bossProgress: 0
+  boss30: {fileID: 1290049629188208, guid: 955dd8aea2c27774cbe584fd40fdb57d, type: 2}
+  xLars: {fileID: 1290049629188208, guid: 17f6da446cec0f54ab9eb107117f8a9f, type: 2}
+  Pascal255: {fileID: 1290049629188208, guid: 2fb84441b0bce264c9cc02e4f56ac03d, type: 2}
+  loleris: {fileID: 1290049629188208, guid: 433a81de941081c4b835503721b807fa, type: 2}
+  TTP: {fileID: 1290049629188208, guid: f6aac2cf32253454fa7266599ff7ed6d, type: 2}
+  LightLimn: {fileID: 1290049629188208, guid: b519e5b3ef2b50642a0d3de1ec9ee91b, type: 2}
+--- !u!114 &114742312362689350
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1619051174606446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78df377f2de2a7647ba456b7b513081e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xMax: 0
+  yMax: 0
+  xMin: 0
+  yMin: 0
+--- !u!114 &114826291380636680
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1619051174606446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 579d8984db64c294c9f813ab9e9cd919, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemiesLeft: {fileID: 0}
+  Wave: {fileID: 0}
+  intermissionTXT: {fileID: 0}
+  EnemieCount: 5
+  WaveCount: 1
+  countDown: 5
+  Enemies: 5
+  isintermission: 0
+  intermissionstart: 0
